@@ -23,13 +23,13 @@ forgot_pass_login_link_xpath = "//a[text()='Войти']" # текст со сс
 signup_login_xpath = "//a[text()='Войти']" # текст со ссылкой на страницу входа
 
 # локаторы для тестов аккаунта
-profile_page_url = "https://stellarburgers.nomoreparties.site/account/profile"
-profile_save_button_xpath = "//button[text()='Сохранить']"
-profile_logo_xpath = "//div[@class='AppHeader_header__logo__2D0X2']"
-profile_main_page_button_xpath = "//p[text()='Конструктор']"
-profile_logout_button_xpath = "//button[@class='Account_button__14Yp3 text text_type_main-medium text_color_inactive']"
+profile_page_url = "https://stellarburgers.nomoreparties.site/account/profile" # URL Страницы профиля
+profile_save_button_xpath = "//button[text()='Сохранить']" # кнопка сохранить в профиле
+profile_logo_xpath = "//div[@class='AppHeader_header__logo__2D0X2']" # логотип вверху страницы
+profile_main_page_button_xpath = "//p[text()='Конструктор']" # кнопка перехода на главную страницу
+profile_logout_button_xpath = "//button[@class='Account_button__14Yp3 text text_type_main-medium text_color_inactive']" # кнопка выхода из профиля
 
 # локаторы для тестов разделов конструктора
-main_scroll_buns_xpath = "//span[text()='Булки']"
-main_scroll_sauces_xpath = "//span[text()='Соусы']"
-main_scroll_fillings_xpath = "//span[text()='Начинки']"
+main_scroll_buns_xpath = "//span[text()='Булки']" # кнопка для перехода в раздел с булками
+main_scroll_sauces_xpath = "//span[text()='Соусы']" # кнопка для перехода в раздел с соусами
+main_scroll_fillings_xpath = "//span[text()='Начинки']" # кнопка для перехода в раздел с начинками
