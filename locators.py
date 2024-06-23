@@ -31,5 +31,9 @@ profile_logout_button_xpath = "//button[@class='Account_button__14Yp3 text text_
 
 # локаторы для тестов разделов конструктора
 main_scroll_buns_xpath = "//span[text()='Булки']" # кнопка для перехода в раздел с булками
+main_scroll_buns_parent_xpath = "//span[text()='Булки']/parent::div" # родитель кнопки для перехода в раздел с булками
 main_scroll_sauces_xpath = "//span[text()='Соусы']" # кнопка для перехода в раздел с соусами
+main_scroll_sauces_parent_xpath = "//span[text()='Соусы']/parent::div" # родитель кнопки для перехода в раздел с соусами
 main_scroll_fillings_xpath = "//span[text()='Начинки']" # кнопка для перехода в раздел с начинками
+main_scroll_fillings_parent_xpath = "//span[text()='Начинки']/parent::div" # родитель кнопки для перехода в раздел с начинками
+main_last_scroll_item = "//img[@alt='Сыр с астероидной плесенью']" # Последний элемент в списке
